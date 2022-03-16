@@ -1,0 +1,54 @@
+{
+  "India":
+  {
+    "1":{
+      "name":"New Delhi",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "2":{
+      "name":"Chennai",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "3":{
+      "name":"Bangalore",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "4":{
+      "name":"Kerala",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "5":{
+      "name":"Andrapradesh",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "6":{
+      "name":"Mumbai",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "7":{
+      "name":"Pune",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "8":{
+      "name":"Gujarat",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "9":{
+      "name":"Kashmir",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "10":{
+      "name":"Goa",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "11":{
+      "name":"Assam",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    },
+    "12":{
+      "name":"Bihar",
+      "img":"https://www.itchotels.com/content/dam/itchotels/in/umbrella/images/headmast-desktop/welcomhotel-bhubaneswar.jpg"
+    }
+    
+  }
+}

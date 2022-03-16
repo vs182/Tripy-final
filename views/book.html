@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/book.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+</head>
+<body>
+    <header>
+        <a  href="./home.html" class="brand" >Tripy</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a  href="./home.html">Home</a>
+                <a  href="./book.html">Book</a>
+                <a  href="./explore.html">Explore</a>
+                <a  href="#">Gallery</a>
+                <a  href="#">Contact</a>
+                <a href="../views/account.html"><div class="user"></div></a>
+            </div>
+        </div>
+    </header>
+    <div class="bg">
+        <section class="book" id="ticket">
+            <div class="whole">
+                <div class="container">
+                    <div class="title">Book Ticket</div>
+                    <div class="content">
+                      <form action="#">
+                        <div class="user-details">
+                          <div class="input-box">
+                            <span class="details">From</span>
+                            <div class="countries">
+                                <select name="countries" id="countries"></select>
+                            </div>
+                          </div>
+                          <div class="input-box">
+                            <span class="details">To</span>
+                            <div class="countries">
+                                <select name="countries" class="con2" id="countries"></select>
+                            </div>
+                          </div>
+                          <div class="input-box">
+                            <span class="details">From Date</span>
+                            <input id="fdate" type="date" required>
+                          </div>
+                          <div class="input-box">
+                            <span class="details">Depature Dtae</span>
+                            <input id="tdate" type="date"  required>
+                          </div>
+                          <div class="input-box">
+                            <span class="details">No of Tickets</span>
+                            <input id="notic" type="number" placeholder="No of Tickets" required>
+                          </div>
+                          <div class="input-box">
+                            <span class="details">Tripy Password</span>
+                            <input type="password"  id="pass" placeholder="Tripy password" required>
+                          </div>
+                        </div>
+                        <div class="gender-details">
+                          <input type="radio" name="category" disabled id="dot-1">
+                          <input type="radio" name="category" checked id="dot-2">
+                          <input type="radio" name="category" id="dot-3">
+                          <span class="gender-title">Class</span>
+                          <div class="category">
+                            <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Business Class (become member for offer)</span>
+                          </label>
+                          <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Normal Class</span>
+                          </label>
+                          </div>
+                        </div>
+                        <div class="button">
+                          <input type="button" onclick="book()" value="Next">
+                        </div>
+                      </form>
+                    </div>
+                    <h3 id="price"></h3>
+                    <h2 id="total"></h2>
+                </div>
+                <div id="person" class="persondetails">
+  
+                </div>
+                <!-- <div id="slot" class="slot">
+                    
+                </div> -->
+            </div>
+            <style>
+              @media print{
+                body *{
+                  visibility: hidden;
+                }
+                .print-container *{
+                  visibility: visible;
+                }
+              }
+            </style>
+        </section>
+        <!-- <section class="book hotels" id="hotels">
+            <h1>Hotels</h1>
+            <br>
+            <h2 id="country_head"></h2>
+            <br>
+            <div class="hotel-container">
+              
+            </div>
+        </section> -->
+        <!-- <section class="book restaurants" id="restaurants">
+            <h1>Restaurants</h1>
+        </section>
+        <section class="book guide" id="guide">
+            <h1>Guide</h1>
+        </section>
+        <section class="book cars" id="cars">
+            <h1>Cars</h1>
+        </section> -->
+    </div>
+    <script src="http://html2canvas.hertzen.com/build/html2canvas.js"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/countries.js"></script>
+    
+</body>
+</html>

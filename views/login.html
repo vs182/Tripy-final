@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="../../img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="../../img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form id="form1" class="form1">
+				<img src="../../img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" id="user" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" id="pass" class="input">
+            	   </div>
+            	</div>
+            	<a href="./blog.html">Forgot Password?</a>
+            	<input type="button" onclick="login()" class="btn" value="Login">
+                <p>or</p>
+                <input onclick="form1()" type="button" value="Register"  class="btn">
+            </form>
+
+			<form id="form2" class="form2">
+				<img src="../../img/avatar.svg">
+				<h2 class="title">Hello!</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input id="newuser" type="text" class="input">
+           		   </div>
+           		</div>
+				   <div class="input-div one">
+					<div class="i">
+							<i class="fas fa-inbox"></i>
+					</div>
+					<div class="div">
+							<h5>Email</h5>
+							<input type="email" id="newemail" class="input">
+					</div>
+				 </div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" id="newpass" class="input">
+            	   </div>
+            	</div>
+				<div class="input-div one">
+					<div class="i">
+							<i class="fas fa-user"></i>
+					</div>
+					<div class="div">
+							<h5>File</h5>
+							<input type="file" name="" id="image">
+						</div>
+				 </div>
+            	<input type="button" onclick="register()" class="btn" value="Register">
+                <p>or</p>
+                <input onclick="form2()" value="Login" type="button" class="btn">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>
